@@ -1,149 +1,162 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Izaa Store Top Up ID</title>
-  <meta name="description" content="Top up Mobile Legends, Free Fire, dan game populer lainnya secara instan, aman, dan terpercaya hanya di Izaa Store Top Up ID.">
-  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2940/2940555.png" type="image/png">
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-100 font-sans">
-  <!-- Navbar -->
-  <nav class="bg-white shadow p-4 flex justify-between items-center">
-    <h1 class="text-xl font-bold text-blue-600">Izaa Store Top Up ID</h1>
-    <div>
-      <a href="#beranda" class="text-gray-700 mx-2 hover:text-blue-500">Beranda</a>
-      <a href="#produk" class="text-gray-700 mx-2 hover:text-blue-500">Produk</a>
-    </div>
-  </nav>
-
-  <!-- Hero Banner -->
-  <div class="relative">
-    <img src="https://www.ourastore.com/storage/banners/May2024/3Gnqp8SyFeEBcItbdhvG.png" alt="Starlight Mei Miya" class="w-full object-cover max-h-[450px]" />
-    <div class="absolute top-1/2 left-6 transform -translate-y-1/2 bg-white/80 backdrop-blur p-4 rounded shadow">
-      <h2 class="text-xl font-bold text-gray-800">Top Up Starlight Miya Sekarang!</h2>
-      <p class="text-gray-600">Hanya di Izaa Store Top Up ID</p>
-      <a href="#produk" class="inline-block mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Top Up Sekarang</a>
-    </div>
-  </div>
-
-  <!-- Payment Methods -->
-  <section class="bg-white py-12 px-8">
-    <h2 class="text-2xl font-semibold text-center mb-6">Metode Pembayaran</h2>
-    <div class="flex flex-wrap justify-center gap-4">
-      <img src="https://www.ourastore.com/images/payment/bca.svg" alt="Logo Bank BCA" class="h-10" />
-      <img src="https://www.ourastore.com/images/payment/bni.svg" alt="Logo Bank BNI" class="h-10" />
-      <img src="https://www.ourastore.com/images/payment/dana.svg" alt="Logo Dana" class="h-10" />
-      <img src="https://www.ourastore.com/images/payment/gopay.svg" alt="Logo Gopay" class="h-10" />
-      <img src="="https://www.ourastore.com/images/payment/ovo.svg" alt="Logo OVO" class="h-10" />
-      <img src="https://www.ourastore.com/images/payment/qris.svg" alt="Logo QRIS" class="h-10" />
-      <img src="https://www.ourastore.com/images/payment/shopeepay.svg" alt="Logo ShopeePay" class="h-10" />
-    </div>
-  </section>
-
-  <!-- Beranda -->
-  <section id="beranda" class="p-8 text-center">
-    <h2 class="text-3xl font-bold mb-4">Selamat Datang di Izaa Store Top Up ID</h2>
-    <p class="text-gray-600 max-w-xl mx-auto">Top up game favorit kamu dengan cepat, aman, dan harga terbaik. Proses instan dan terpercaya!</p>
-    <img src="https://cdn-icons-png.flaticon.com/512/2940/2940555.png" alt="Top up icon" class="w-40 mx-auto mt-6" />
-  </section>
-
-  <!-- Produk -->
-  <section id="produk" class="bg-white py-12 px-8">
-    <h2 class="text-2xl font-semibold text-center mb-8">Daftar Game Populer</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-      <!-- Produk -->
-      <div class="bg-gray-100 p-4 rounded shadow text-center transition-transform hover:scale-105">
-        <img src="https://upload.wikimedia.org/wikipedia/en/6/66/Mobile_Legends_game_icon.png" alt="Mobile Legends" class="w-20 h-20 mx-auto mb-4">
-        <h3 class="font-semibold text-lg">Mobile Legends</h3>
-        <p class="text-sm text-gray-600">Mulai dari Rp10.000</p>
-        <button onclick="openModal('Mobile Legends')" class="mt-3 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">Top Up</button>
-      </div>
-      <div class="bg-gray-100 p-4 rounded shadow text-center transition-transform hover:scale-105">
-        <img src="https://upload.wikimedia.org/wikipedia/en/1/1e/Free_Fire_game_logo.png" alt="Free Fire" class="w-20 h-20 mx-auto mb-4">
-        <h3 class="font-semibold text-lg">Free Fire</h3>
-        <p class="text-sm text-gray-600">Mulai dari Rp5.000</p>
-        <button onclick="openModal('Free Fire')" class="mt-3 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">Top Up</button>
-      </div>
-      <div class="bg-gray-100 p-4 rounded shadow text-center transition-transform hover:scale-105">
-        <img src="https://upload.wikimedia.org/wikipedia/en/d/d2/PUBG_Mobile_logo.png" alt="PUBG Mobile" class="w-20 h-20 mx-auto mb-4">
-        <h3 class="font-semibold text-lg">PUBG Mobile</h3>
-        <p class="text-sm text-gray-600">Mulai dari Rp15.000</p>
-        <button onclick="openModal('PUBG Mobile')" class="mt-3 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">Top Up</button>
-      </div>
-      <div class="bg-gray-100 p-4 rounded shadow text-center transition-transform hover:scale-105">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Valorant_logo_-_pink_color_version.svg" alt="Valorant" class="w-20 h-20 mx-auto mb-4">
-        <h3 class="font-semibold text-lg">Valorant</h3>
-        <p class="text-sm text-gray-600">Mulai dari Rp20.000</p>
-        <button onclick="openModal('Valorant')" class="mt-3 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">Top Up</button>
-      </div>
-    </div>
-  </section>
-
-  <!-- Modal WA -->
-  <div id="modal" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50">
-    <div class="bg-white rounded-lg p-6 w-full max-w-md shadow-lg relative">
-      <button onclick="closeModal()" class="absolute top-2 right-3 text-gray-500 hover:text-red-600 text-xl">&times;</button>
-      <h3 class="text-lg font-bold mb-4" id="modal-title">Top Up</h3>
-      <form onsubmit="submitForm(event)">
-        <div class="mb-4">
-          <label for="userId" class="block mb-1 text-sm font-medium text-gray-700">User ID</label>
-          <input type="text" id="userId" name="userId" required class="w-full border border-gray-300 rounded px-3 py-2" />
-        </div>
-        <div class="mb-4">
-          <label for="server" class="block mb-1 text-sm font-medium text-gray-700">Server (jika ada)</label>
-          <input type="text" id="server" name="server" class="w-full border border-gray-300 rounded px-3 py-2" />
-        </div>
-        <div class="mb-4">
-          <label for="nominal" class="block mb-1 text-sm font-medium text-gray-700">Pilih Nominal</label>
-          <select id="nominal" name="nominal" required class="w-full border border-gray-300 rounded px-3 py-2">
-            <option value="" disabled selected>Pilih nominal</option>
-            <option value="86 Diamonds - Rp20.000">86 Diamonds - Rp20.000</option>
-            <option value="172 Diamonds - Rp39.000">172 Diamonds - Rp39.000</option>
-            <option value="257 Diamonds - Rp59.000">257 Diamonds - Rp59.000</option>
-            <option value="344 Diamonds - Rp79.000">344 Diamonds - Rp79.000</option>
-            <option value="706 Diamonds - Rp149.000">706 Diamonds - Rp149.000</option>
-          </select>
-        </div>
-        <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded w-full">Kirim ke WhatsApp</button>
-      </form>
-    </div>
-  </div>
-
-  <!-- Footer -->
-  <footer class="bg-gray-200 text-center p-4 mt-8 text-gray-700">
-    &copy; 2025 Izaa Store Top Up ID - Semua Hak Dilindungi
-  </footer>
-
-  <!-- WhatsApp Script -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top Up Game - Izaa Store</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #ffffff;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+    }
+    header {
+      background-color: #1f1f1f;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .nav a {
+      margin: 0 1rem;
+      color: #ffffff;
+      text-decoration: none;
+    }
+    .section {
+      padding: 2rem;
+    }
+    .section h2 {
+      color: #ffce3d;
+    }
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+    input, select {
+      width: 100%;
+      padding: 0.5rem;
+      border-radius: 5px;
+      border: none;
+    }
+    .diamond-options {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 1rem;
+      margin: 1rem 0;
+    }
+    .diamond {
+      background: #2a2a2a;
+      padding: 1rem;
+      border-radius: 6px;
+      text-align: center;
+      cursor: pointer;
+    }
+    .diamond:hover {
+      background: #3a3a3a;
+    }
+    .btn {
+      background: #ffce3d;
+      color: #000;
+      padding: 0.75rem;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
   <script>
-    let selectedGame = '';
+    let selectedDiamond = '';
+    let selectedPrice = '';
 
-    function openModal(gameName) {
-      selectedGame = gameName;
-      document.getElementById("modal").classList.remove("hidden");
-      document.getElementById("modal-title").innerText = `Top Up ${gameName}`;
+    function pilihDiamond(game, jumlah, harga) {
+      selectedDiamond = jumlah;
+      selectedPrice = harga;
     }
 
-    function closeModal() {
-      document.getElementById("modal").classList.add("hidden");
-    }
-
-    function submitForm(event) {
-      event.preventDefault();
-      const userId = document.getElementById("userId").value.trim();
-      const server = document.getElementById("server").value.trim() || '-';
-      const nominal = document.getElementById("nominal").value;
-
-      const message = `Halo Admin, saya ingin top up:\nGame: ${selectedGame}\nUser ID: ${userId}\nServer: ${server}\nNominal: ${nominal}`;
-      const phoneNumber = "6287870941464"; // WA Admin kamu
-
-      const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-      window.open(whatsappURL, '_blank');
-
-      closeModal();
+    function kirimWA(game) {
+      const id = document.getElementById(`${game}-id`).value;
+      const server = document.getElementById(`${game}-server`)?.value || '';
+      const payment = document.getElementById(`${game}-payment`).value;
+      if (!id || !selectedDiamond || !selectedPrice) {
+        alert('Isi semua data dan pilih nominal diamond!');
+        return;
+      }
+      let pesan = `Halo Admin, saya ingin top up ${game} sebesar ${selectedDiamond} (${selectedPrice})%0AUser ID: ${id}`;
+      if (server) pesan += `%0AServer: ${server}`;
+      pesan += `%0APembayaran: ${payment}`;
+      window.open(`https://wa.me/6287870941464?text=${pesan}`, '_blank');
     }
   </script>
+</head>
+<body>
+  <header>
+    <h1>Izaa Store</h1>
+    <nav class="nav">
+      <a href="index.html">Beranda</a>
+      <a href="topup.html">Topup</a>
+    </nav>
+  </header>
+
+  <div class="section">
+    <h2>Mobile Legends</h2>
+    <div class="form-group">
+      <input type="text" id="ml-id" placeholder="Masukkan User ID">
+    </div>
+    <div class="form-group">
+      <input type="text" id="ml-server" placeholder="Masukkan Server ID">
+    </div>
+    <div class="form-group">
+      <select id="ml-payment">
+        <option value="DANA">DANA</option>
+        <option value="OVO">OVO</option>
+        <option value="GOPAY">GOPAY</option>
+      </select>
+    </div>
+    <div class="diamond-options">
+      <div class="diamond" onclick="pilihDiamond('ml', '5 Diamond', 'Rp 1.539')">5 Dm<br>Rp 1.539</div>
+      <div class="diamond" onclick="pilihDiamond('ml', '10 Diamond', 'Rp 3.120')">10 Dm<br>Rp 3.120</div>
+      <div class="diamond" onclick="pilihDiamond('ml', '12 Diamond', 'Rp 3.590')">12 Dm<br>Rp 3.590</div>
+      <!-- Tambahkan sesuai kebutuhan -->
+    </div>
+    <button class="btn" onclick="kirimWA('ml')">Pesan Sekarang</button>
+  </div>
+
+  <div class="section">
+    <h2>Free Fire</h2>
+    <div class="form-group">
+      <input type="text" id="ff-id" placeholder="Masukkan User ID">
+    </div>
+    <div class="form-group">
+      <select id="ff-payment">
+        <option value="DANA">DANA</option>
+        <option value="OVO">OVO</option>
+        <option value="GOPAY">GOPAY</option>
+      </select>
+    </div>
+    <div class="diamond-options">
+      <div class="diamond" onclick="pilihDiamond('ff', '70 Diamond', 'Rp 8.000')">70 Dm<br>Rp 8.000</div>
+      <div class="diamond" onclick="pilihDiamond('ff', '140 Diamond', 'Rp 16.000')">140 Dm<br>Rp 16.000</div>
+    </div>
+    <button class="btn" onclick="kirimWA('ff')">Pesan Sekarang</button>
+  </div>
+
+  <div class="section">
+    <h2>PUBG Mobile</h2>
+    <div class="form-group">
+      <input type="text" id="pubg-id" placeholder="Masukkan User ID">
+    </div>
+    <div class="form-group">
+      <select id="pubg-payment">
+        <option value="DANA">DANA</option>
+        <option value="OVO">OVO</option>
+        <option value="GOPAY">GOPAY</option>
+      </select>
+    </div>
+    <div class="diamond-options">
+      <div class="diamond" onclick="pilihDiamond('pubg', '60 UC', 'Rp 10.000')">60 UC<br>Rp 10.000</div>
+      <div class="diamond" onclick="pilihDiamond('pubg', '180 UC', 'Rp 25.000')">180 UC<br>Rp 25.000</div>
+    </div>
+    <button class="btn" onclick="kirimWA('pubg')">Pesan Sekarang</button>
+  </div>
 </body>
 </html>
